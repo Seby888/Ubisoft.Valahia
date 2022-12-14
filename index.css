@@ -216,6 +216,7 @@ img.avatar{
 
 .btn-social{
     cursor: pointer;
+    padding-left: 10px;
     transition: all 0.3s ease 0s;
 }
 
