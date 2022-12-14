@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
+
+:root{
+    --clr-primary: white;
+    --clr-body: #333;
+    --clr-bg: #ddd;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a, button{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+
+.cautare{
+    height: 30px;
+    width: 29px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10%;
+    background-color: black;
+    height: 10px;
+}
+
+img.logo {
+    height: 30px;
+    width: 80px;
+}
+
+img.avatar{
+    height: 30px;
+    width: 28px;
+    
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    
+}
+
+.nav_links li a{
+    color: white;
+    font-size: 17px;
+    padding: 50px 30px;
+    border-radius: 0px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    
+}
+
+.nav_links li a:hover{
+    color: black;
+    background: white;
+}
+
+
+#parent{
+    position: relative;
+}
+
+
+.background {
+    height:auto;
+    width: 1349px;
+    position: absolute;
+}
+
+.news{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 50px;
+    position: absolute;
+    top: 780px;
+    left: 610px;
+    color: #fff;
+}
+
+.sica{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 20px;
+    position: absolute;
+    top: 350px;
+    left: 20px;
+    right: 20px;
+    color: #fff;
+}
+
+.sica2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 20px;
+    position: absolute;
+    top: 350px;
+    left: 20px;
+    right: 20px;
+    color: #fff;
+}
+
+
+.arme{
+    height: 290px;
+    width: 500px;
+    position: absolute;
+    top: 900px;
+    left: 50px;
+}
+
+.background_arme{
+    background-color:#2e2c29;
+    width: 505px;
+    height: 800px;
+    position: absolute;
+    border: 2px solid white;
+    top: 898px;
+    left: 48px;
+}
+
+.background_arme2{
+    background-color:#2e2c29;
+    width: 505px;
+    height: 800px;
+    position: absolute;
+    border: 2px solid white;
+    top: 898px;
+    left: 798px;
+}
+
+.arme1{
+    height: 290px;
+    width: 500px;
+    position: absolute;
+    top: 900px;
+    left: 800px;
+}
+
+
+.text_alt_baner{
+    position: absolute;
+    color: white;
+    top: 2550px;
+    left: 100px;
+    font-size: 3rem;
+}
+
+.walachia{
+    position: absolute;
+    color: black;
+    top: 188rem;
+    left: 230px;
+    font-size: 15px;
+    margin-right: 53rem;
+}
+
+.walachia2{
+    position: absolute;
+    color: black;
+    top: 232rem;
+    left: 725px;
+    font-size: 15px;
+    margin-right: 20rem;
+}
+
+.walachia3{
+    position: absolute;
+    color: black;
+    top: 272rem;
+    left: 230px;
+    font-size: 15px;
+    margin-right: 53rem;
+}
+
+.alt_bener{
+    position: absolute;
+    height: 800px;
+    width: 1250px;
+    top: 1900px;
+    left: 50px;
+    border: 2px solid white;
+}
+
+
+.links_bar{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    background-color: black;
+    height: 61px;
+    border: none;
+    position: relative;
+    top: 5250px;
+}
+
+.links_bar img{
+    height: 31px;
+    width: 31;
+    margin: 10px;
+}
+
+.btn-social{
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-social:hover{
+    filter: opacity(0.5);
+}
+
+.text_jos{
+    color: #888787;
+}
+
+.parte_jos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 5250px;
+}
+
+.block_jos_stanga{
+    background-color: #2e2c29;
+    height: 45rem;
+    width: 380px;
+
+}
+
+.block_jos_dreapta{
+    position: relative;
+    background-color: #632008;
+    height: 45rem;
+    width: 65rem;
+
+}
+
+.logo_jos{
+    margin: 40px;
+    width: 195px;
+    height: auto
+}
+
+.logo_jos2{
+    margin-top: 5px;
+    width: 300px;
+    height: auto
+}
+
+.list_1{
+    list-style-type: none;
+    margin-left: 40px;
+    color: #fff;
+    font-size: 1.5rem;
+    letter-spacing: 0;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    
+}
+.list_1:hover{
+    color: gray
+}
+
+.a1{
+    margin: 15px;
+    transition: all 0.3s ease 0s;
+}
+.a1:hover{
+    color: #fff;
+}
+.a2{
+    margin: 15px;
+    transition: all 0.3s ease 0s;
+}
+.a2:hover{
+    color: #fff;
+}
+.a3{
+    margin: 15px;
+    transition: all 0.3s ease 0s;
+}
+.a3:hover{
+    color: #fff;
+}
+.a4{
+    margin: 15px;
+    transition: all 0.3s ease 0s;
+}
+.a4:hover{
+    color: #fff;
+}
+.a5{
+    transition: all 0.3s ease 0s;
+    margin: 15px;
+}
+.a5:hover{
+    color: #fff;
+}
+
+.list_2{
+    padding-top: 4px;
+    list-style-type: none;
+    margin-left: 40px;
+    color: #fff;
+    font-size: 0.8rem;
+    letter-spacing: 0;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: ubisoft_sans,sans-serif;
+    
+}
+
+.list_2:hover{
+    color: gray
+}
+
+.b1{
+    margin: 10px;
+    transition: all 0.3s ease 0s;
+}
+.b1:hover{
+    color: #fff;
+}
+.b2{
+    margin: 10px;
+    transition: all 0.3s ease 0s;
+}
+.b2:hover{
+    color: #fff;
+}
+.b3{
+    margin: 10px;
+    transition: all 0.3s ease 0s;
+}
+.b3:hover{
+    color: #fff;
+}
+.b4{
+    margin: 10px;
+    transition: all 0.3s ease 0s;
+}
+.b4:hover{
+    color: #fff;
+}
+.b5{
+    transition: all 0.3s ease 0s;
+    margin: 10px;
+}
+.b5:hover{
+    color: #fff;
+}
+
+
+.store{
+    list-style-type: none;
+    color: #fff;
+    font-size: 1.2rem;
+    letter-spacing: 0;
+    cursor: pointer;
+    font-family: ubisoft_sans,sans-serif;
+    position: absolute;
+    margin-left: 60px;
+}
+
+.store:hover{
+    color: gray
+}
+
+.platforms{
+    list-style-type: none;
+    color: #fff;
+    font-size: 1.2rem;
+    letter-spacing: 0;
+    cursor: pointer;
+    font-family: ubisoft_sans,sans-serif;
+    position: absolute;
+    margin-left: 250px;
+}
+.platforms:hover{
+    color: gray
+}
+
+.parteners{
+    list-style-type: none;
+    color: #fff;
+    font-size: 1.2rem;
+    letter-spacing: 0;
+    cursor: pointer;
+    font-family: ubisoft_sans,sans-serif;
+    position: absolute;
+    margin-left: 450px;
+}
+
+.parteners:hover{
+    color: gray
+}
+
+.text_coloane{
+    color: #c9c9c9;;
+    font-family: ubisoft_sans,sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    margin: 10px;
+}
+
+.c2{
+    margin: 10px;
+    transition: all 0.3s ease 0s;
+}
+.c2:hover{
+    color: #fff;
+}
+
+.c3{
+    margin: 10px;
+    transition: all 0.3s ease 0s;
+}
+.c3:hover{
+    color: #fff;
+}
+
+.d1{
+    margin: 10px;
+    transition: all 0.3s ease 0s;
+}
+.d1:hover{
+    color: #fff;
+}
+
+.d2{
+    margin: 10px;
+    transition: all 0.3s ease 0s;
+}
+.d2:hover{
+    color: #fff;
+}
+
+.d3{
+    margin: 10px;
+    transition: all 0.3s ease 0s;
+}
+.d3:hover{
+    color: #fff;
+}
+
+.d4{
+    margin: 10px;
+    transition: all 0.3s ease 0s;
+}
+.d4:hover{
+    color: #fff;
+}
+
+.d5{
+    margin: 10px;
+    transition: all 0.3s ease 0s;
+}
+.d5:hover{
+    color: #fff;
+}
+
+.d6{
+    margin: 10px;
+    transition: all 0.3s ease 0s;
+}
+.d6:hover{
+    color: #fff;
+}
+
+.e1{
+    margin: 10px;
+    transition: all 0.3s ease 0s;
+}
+.e1:hover{
+    color: #fff;
+}
+
+.e2{
+    margin: 10px;
+    transition: all 0.3s ease 0s;
+}
+.e2:hover{
+    color: #fff;
+}
+
+.e3{
+    margin: 10px;
+    transition: all 0.3s ease 0s;
+}
+.e3:hover{
+    color: #fff;
+}
+
+.link{
+    text-decoration:none;
+    color: inherit;
+}
+
+.scris_mic_jos{
+    color: white;
+    font-size: 1rem;
+    margin-right: 400px;
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+}
+
+.link_jos_no{
+    position: absolute;
+    right: 20px;
+    bottom: 11rem;
+    right: 50px;
+    font-size: 1rem;
+    color: white;
+}
+
+.link_jos{
+    position: absolute;
+    right: 20px;
+    bottom: 9rem;
+    right: 80px;
+    font-size: 1rem;
+    text-decoration-line: underline;
+}
+
+.ccc{
+    position: absolute;
+    border: 200px;
+    right: 135px;
+    bottom: 4rem;
+    cursor: pointer;
+}
+
+
