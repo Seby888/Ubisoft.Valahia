@@ -31,16 +31,17 @@ header{
     padding: 25px 10%;
     background-color: black;
     height: 10px;
+    width:100%;
 }
 
 img.logo {
     height: 30px;
-    width: 80px;
+    width:100%;
 }
 
 img.avatar{
     height: 30px;
-    width: 28px;
+    width:100%;
     
 }
 
@@ -76,7 +77,7 @@ img.avatar{
 
 .background {
     height:auto;
-    width: 1349px;
+    width:100%;
     position: absolute;
 }
 
